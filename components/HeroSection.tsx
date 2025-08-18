@@ -18,14 +18,14 @@ const HeroSection = () => {
               <div className="flex gap-4 mb-12">
                 <Button
                   size="lg"
-                  className="bg-[#FFC527] cursor-pointer text-lg text-black font-medium px-8"
+                  className="bg-[#FFC527] cursor-pointer text-lg text-black font-medium px-6 md:px-8"
                 >
                   Hablemos
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
-                  className="px-8 font-medium text-lg cursor-pointer bg-white text-black"
+                  className="px-4 md:px-8 font-medium text-lg cursor-pointer bg-white text-black"
                 >
                   <a href="#servicios">
                     Conocé los servicios
