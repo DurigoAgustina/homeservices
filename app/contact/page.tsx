@@ -37,8 +37,8 @@ export default function ContactPage() {
     <div className="min-h-screen py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold mb-6 text-gray-900">Contact Us</h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
+          <p className="text-xl max-w-3xl mx-auto">
             Ready to start your next home improvement project? Get in touch with us today for a free consultation and
             quote.
           </p>
@@ -107,21 +107,21 @@ export default function ContactPage() {
                   <Phone className="h-6 w-6 text-blue-600" />
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p>(555) 123-4567</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="h-6 w-6 text-blue-600" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-gray-600">info@homeservices.com</p>
+                    <p>info@homeservices.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="h-6 w-6 text-blue-600" />
                   <div>
                     <p className="font-semibold">Address</p>
-                    <p className="text-gray-600">
+                    <p>
                       123 Service Street
                       <br />
                       Your City, ST 12345
@@ -133,8 +133,8 @@ export default function ContactPage() {
 
             <Card className="bg-blue-50">
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-4 text-gray-900">Business Hours</h3>
-                <div className="space-y-2 text-gray-600">
+                <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
+                <div className="space-y-2">
                   <div className="flex justify-between">
                     <span>Monday - Friday</span>
                     <span>8:00 AM - 6:00 PM</span>

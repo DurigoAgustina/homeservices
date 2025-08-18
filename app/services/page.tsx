@@ -37,8 +37,8 @@ export default function ServicesPage() {
     <div className="min-h-screen py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold mb-6 text-gray-900">Our Services</h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h1 className="text-5xl font-bold mb-6">Our Services</h1>
+          <p className="text-xl max-w-3xl mx-auto">
             We provide comprehensive home services with professional expertise and attention to detail. Each service is
             delivered by licensed professionals committed to quality and customer satisfaction.
           </p>
@@ -53,9 +53,9 @@ export default function ServicesPage() {
               <div className={index % 2 === 1 ? "md:col-start-2" : ""}>
                 <div className="flex items-center gap-4 mb-6">
                   <service.icon className="h-12 w-12 text-blue-600" />
-                  <h2 className="text-3xl font-bold text-gray-900">{service.title}</h2>
+                  <h2 className="text-3xl font-bold">{service.title}</h2>
                 </div>
-                <p className="text-lg text-gray-600 leading-relaxed">{service.description}</p>
+                <p className="text-lg leading-relaxed">{service.description}</p>
               </div>
               <div className={index % 2 === 1 ? "md:col-start-1" : ""}>
                 <Image
