@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 import { useState } from "react";
+import Link from "next/link";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,14 +10,14 @@ const Header = () => {
       <nav className="bg-[#222222]">
         <div className="mx-auto px-4">
           <div className="flex items-center justify-between h-20">
-            <div>
+            <Link href="/" className="flex items-center">
               <Image
                 src="/thales-multiservicios.png"
                 alt="Logo"
                 width={140}
                 height={140}
               />
-            </div>
+            </Link>
 
             <div className="hidden md:flex items-center space-x-8">
               <a href="#" className="font-medium hover:text-[#FFC527]">
