@@ -13,14 +13,14 @@ import ServicesSection from "@/components/ServicesSection";
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-[#222222]">
+          {/* Navigation */}
+          <Header />
       <div className="relative bg-[url(/banner.jpg)] bg-cover bg-right bg-no-repeat">
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-70"></div>
 
         {/* Contenido por encima del overlay */}
         <div className="relative z-10">
-          {/* Navigation */}
-          <Header />
 
           {/* Hero Section */}
           <HeroSection />
@@ -28,7 +28,9 @@ export default function HomePage() {
       </div>
 
       {/* Services Section */}
-      <ServicesSection />
+      <div id="servicios">
+        <ServicesSection />
+      </div>
 
       {/* Experience Section */}
       <ExperienceSection />
@@ -40,12 +42,14 @@ export default function HomePage() {
       {/* <PortfolioSection /> */}
 
       {/* Contact Section */}
-      <FooterSection />
+      <div id="contacto">
+        <FooterSection />
+      </div>
 
       {/* WhatsApp Contact Button */}
       <div>
         <Link
-          href="https://wa.me/5493517730127"
+          href="https://wa.me/5493517868127"
           target="_blank"
           className="fixed bottom-5 right-5 rounded-full p-2 z-50 bg-[#29A71A]"
         >

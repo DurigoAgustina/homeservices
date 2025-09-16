@@ -40,7 +40,7 @@ export const FooterSection = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold">Teléfono</h4>
-                        <p className="">3517730127</p>
+                        <p className="">3517868127</p>
                       </div>
                     </div>
 
