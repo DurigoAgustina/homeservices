@@ -28,7 +28,7 @@ const Header = () => {
               {/* <a href="#nuestros-trabajos">
                 Nuestro Trabajo
               </a> */}
-              <a href="/contact" className="hover:text-[#FFC527]">
+              <a href="#contact" className="hover:text-[#FFC527]">
                 Contacto
               </a>
             </div>
@@ -71,7 +71,7 @@ const Header = () => {
                         {/* <a href="#nuestros-trabajos">
                           Nuestro Trabajo
                         </a> */}
-                      <a href="/contact" className="hover:text-[#FFC527]">
+                      <a href="#contact" className="hover:text-[#FFC527]">
                         Contacto
                       </a>
                       </div>
